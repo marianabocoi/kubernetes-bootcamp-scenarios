@@ -1,0 +1,32 @@
+{
+  "title": "Module 3 - Expose your app publicly",
+  "description": "Expose your app publicly",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 Create a new service",
+        "code": "foreground.sh",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2: Using labels",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 Deleting a service",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup_bg.sh",
+      "foreground": "setup_msg.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

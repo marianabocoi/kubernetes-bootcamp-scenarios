@@ -1,0 +1,32 @@
+{
+  "title": "Module 5 - Update your app",
+  "description": "Update your app",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1: Update the version of the app",
+        "code": "foreground.sh",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2: Verify an update",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3: Rollback an update",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup_bg.sh",
+      "foreground": "setup_msg.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

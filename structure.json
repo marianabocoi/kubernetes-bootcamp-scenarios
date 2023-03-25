@@ -1,0 +1,21 @@
+{
+  "title": "Intro to Kubernetes",
+  "description": "Based on https://kubernetes.io/docs/tutorials/kubernetes-basics",
+  "items": [
+    {
+      "path": "module_01"
+    },
+    {
+      "path": "module_02"
+    },
+    {
+      "path": "module_03"
+    },
+    {
+      "path": "module_04"
+    },
+    {
+      "path": "module_05"
+    }
+  ]
+}

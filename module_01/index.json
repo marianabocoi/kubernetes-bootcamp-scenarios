@@ -1,0 +1,39 @@
+{
+  "title": "Module 1 - Deploy an app",
+  "description": "Deploy an app",
+  "details": {
+    "steps": [
+      {
+        "title": "kubectl cli",
+        "text": "step1.md"
+      },
+      {
+        "title": "Nodes & Pods",
+        "text": "step2.md"
+      },
+      {
+        "title": "Deploy an app",
+        "text": "step3.md"
+      },
+      {
+        "title": "Check the app",
+        "text": "step4.md"
+      },
+      {
+        "title": "Pod access",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "title": "Intro",
+      "text": "intro.md"
+    },
+    "finish": {
+      "title": "The end!",
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

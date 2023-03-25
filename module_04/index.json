@@ -1,0 +1,32 @@
+{
+  "title": "Module 4 - Scale up your app",
+  "description": "Scale up your app",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1: Scaling a deployment",
+        "code": "foreground.sh",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2: Load Balancing",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3: Scale Down",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup_bg.sh",
+      "foreground": "setup_msg.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

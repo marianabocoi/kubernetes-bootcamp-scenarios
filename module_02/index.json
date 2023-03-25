@@ -1,0 +1,35 @@
+{
+  "title": "Module 2 - Explore your app",
+  "description": "Explore your app",
+  "details": {
+    "steps": [
+      {
+        "title": " Step 1 Check application configuration",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 Show the app in the terminal",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 View the container logs",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 Executing command on the container ",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup_bg.sh",
+      "foreground": "setup_msg.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
